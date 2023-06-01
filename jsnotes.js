@@ -2,7 +2,7 @@
 
 // var x = 1;
 
-/* while (x <=20) {
+while (x <=20) {
 
   if (x % 3 === 0 && x % 5 === 0) {
     console.log("JuliaJames");
@@ -18,7 +18,7 @@
 
 /**** */
 
-/****** 99 BOTTLES OF JUICE QUIZ
+99 BOTTLES OF JUICE QUIZ
 
 var num = 99;
 
@@ -32,7 +32,7 @@ while (num >= 1) {
     console.log(num +  " bottles of juice on the wall! " + num + " bottles  of juice! Take one down, pass it around... " + (num-1) +  " bottles of juice on the wall!")
   }
   num --; 
-} */
+}
 
 
 
@@ -120,3 +120,49 @@ while (seconds >= 0) {
   }
 seconds--;
 }
+
+/* const amounts = [61,00, 52.25, 112.99, 5.00];
+
+let total = 0;
+for (let i = 0; i < amounts.length; i++) {
+  total += amounts[i];
+}
+
+console.log('Order total is: ', total);
+
+/* Newer for..of Loop*/
+
+let total = 0;
+for (let amount of amounts ) {
+  total += amount;
+}
+
+console.log('Order total is ', total);
+
+
+/* FUNCTIONS */
+
+function findAverage(x, y) {
+  var answer = (x + y) / 2;
+  return answer;
+}
+
+var avg = findAverage(5, 9);
+
+/* Laugh it Off Quiz */
+
+function laugh() {
+  return "hahahahahahahahahaha!";
+}
+
+console.log(laugh());
+
+/* Laugh It Off Quiz 2 */
+
+function laugh(num); {
+  
+}
+
+
+
+console.log(laugh(3));
