@@ -171,12 +171,3 @@ let laugh = function (num){
 }
 
 console.log(laugh(3));
-
-/*** X Marks The Perfect Shot ***/
-
-const moves = ['north', 'north', 'west', 'west', 'north', 'east','north']  
-
-const finalPosition = function (moves) {
-  let gridMoves = [x, y];
-  
-    }
