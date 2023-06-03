@@ -1,0 +1,49 @@
+{
+  "workbench.colorCustomizations": {
+    "[Ayu Mirage]": {
+        "sideBar.background": "#1C222C",
+        "progressBar.background": "#1C222C",
+        "editor.background": "#1C222C",
+        "editor.selectionBackground": "#2B3944",
+        "editor.selectionHighlightBackground": "#2B3944"
+    }
+},
+
+"editor.tokenColorCustomizations": {
+    "textMateRules": [
+        {
+            "scope": [
+                "punctuation.accessor.js",
+                "punctuation.separator.key-value.js",
+                "punctuation.terminator.statement.js"
+                ],
+                "settings": {
+                "foreground": "#CCCAC2",
+                }
+        },
+        {
+            "scope": [
+                "entity.name.type.class"
+                ],
+                "settings": {
+                "foreground": "#FFD173",
+                }
+        },
+        {
+            "scope": [
+                "keyword.operator"
+                ],
+                "settings": {
+                "foreground": "#FFAD66",
+                }
+        }
+    ]
+},
+
+"editor.semanticTokenColorCustomizations": {
+    "enabled": true,
+    "rules": {
+      "variable.defaultLibrary": "#5ccfe6",
+    }
+},
+}
