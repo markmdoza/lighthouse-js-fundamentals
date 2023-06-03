@@ -329,3 +329,32 @@ emotions("happy", function laugh(num) {
 // Call the emotions() function with two arguments
 // Argument 1 - "happy" string
 // Argument 2 - an inline function expression 
+
+
+/*** Voting Station Calculation ***/
+
+const stations = [
+  ['Big Bear Donair', 10, 'restaurant'],
+  ['Bright Lights Elementary', 50, 'school'],
+  ['Moose Mountain Community Centre', 45, 'community centre']
+];
+
+const chooseStations = function(stations) {
+  let goodStations = [];
+  for (const val of stations) {
+    if (val[1] >= 20 && (val[2] === 'school' || val[2] === 'community centre')) {
+      goodStations.push(val[0]);
+    }
+  }
+  return goodStations
+} 
+
+
+
+
+
+
+
+
+
+
