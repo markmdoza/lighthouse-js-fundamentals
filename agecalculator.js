@@ -1,6 +1,6 @@
 
 function ageCalculator(name, yearOfBirth, currentYear) {
-  currentAge = currentYear - yearOfBirth;
+  let currentAge = currentYear - yearOfBirth;
   return (name + ' is ' + currentAge + ' years old.');
 }
 
