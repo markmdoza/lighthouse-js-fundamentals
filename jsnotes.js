@@ -350,11 +350,9 @@ const chooseStations = function(stations) {
 } 
 
 
+/*** Functions - Age Calculator ***/
 
-
-
-
-
-
-
-
+function ageCalculator(name, yearOfBirth, currentYear); {
+  let name = "";
+  
+}
