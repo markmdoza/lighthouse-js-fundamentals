@@ -349,6 +349,19 @@ const chooseStations = function(stations) {
   return goodStations
 } 
 
+/*** X Marks The Perfect Shot ***/
+const moves = ['north', 'north', 'west', 'west', 'north', 'east','north']  
+
+let x = 0;
+let y = 0;
+
+const finalPosition = function (moves) {
+  let moveGrid = [x, y]; {
+
+  }
+  }
+}
+
 
 /*** Functions - Age Calculator ***/
 
