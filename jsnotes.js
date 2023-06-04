@@ -171,3 +171,29 @@ let laugh = function (num){
 }
 
 console.log(laugh(3));
+
+/* Following is the syntax of splice() method: arrayName.splice(arg1, arg2, item1, ....., itemX); where,
+
+arg1 = Mandatory argument. Specifies the starting index position to add/remove items. You can use a negative value to specify the position from the end of the array e.g., -1 specifies the last element.
+
+arg2 = Optional argument. Specifies the count of elements to be removed. If set to 0, no items will be removed.
+
+item1, ....., itemX are the items to be added at index position arg1
+
+splice() method returns the item(s) that were removed. */
+
+Arrays have a set of special methods to help you iterate over and perform operations on collections of data. You can view the MDN Documentation list of Array methods here, but a couple big ones to know are the forEach() and map() methods.
+
+The forEach() method gives you an alternative way to iterate over an array, and manipulate each element in the array with an inline function expression.
+
+var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+
+donuts.forEach(function(donut) {
+  donut += " hole";
+  donut = donut.toUpperCase();
+  console.log(donut);
+});
+Prints:
+JELLY DONUT HOLE
+CHOCOLATE DONUT HOLE
+GLAZED DONUT HOLE
