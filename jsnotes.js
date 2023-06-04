@@ -2,7 +2,7 @@
 
 // var x = 1;
 
-while (x <=20) {
+while (x <= 20) {
 
   if (x % 3 === 0 && x % 5 === 0) {
     console.log("JuliaJames");
@@ -25,13 +25,13 @@ var num = 99;
 while (num >= 1) {
 
   if (num === 2) {
-    console.log(num +  " bottles of juice on the wall! " + num + " bottles  of juice! Take one down, pass it around... " + (num-1) +  " bottle of juice on the wall!")
+    console.log(num + " bottles of juice on the wall! " + num + " bottles  of juice! Take one down, pass it around... " + (num - 1) + " bottle of juice on the wall!")
   } else if (num === 1) {
-    console.log(num +  " bottle of juice on the wall! " + num + " bottle  of juice! Take one down, pass it around... " + (num-1) +  " bottles of juice on the wall!")
+    console.log(num + " bottle of juice on the wall! " + num + " bottle  of juice! Take one down, pass it around... " + (num - 1) + " bottles of juice on the wall!")
   } else {
-    console.log(num +  " bottles of juice on the wall! " + num + " bottles  of juice! Take one down, pass it around... " + (num-1) +  " bottles of juice on the wall!")
+    console.log(num + " bottles of juice on the wall! " + num + " bottles  of juice! Take one down, pass it around... " + (num - 1) + " bottles of juice on the wall!")
   }
-  num --; 
+  num--;
 }
 
 
@@ -81,24 +81,24 @@ Solid rocket booster ignition and liftoff! (T-0 seconds)
 
 var seconds = 60;
 
-  while (seconds >= 1) {
-    if (seconds === 50) {
-      console.log("Obiter transfers from ground to internal power");
-    } else if (seconds === 31) {
-      console.log("Ground lanuch sequencer is go for auto sequence start");
-    } else if (seconds === 16) {
-      console.log("Activate launch pad sound suppression system");
-    } else if (seconds === 10) {
-      console.log("Activate main engine hydrogen burnoff system");
-    } else if (seconds === 6) {
-      console.log("Main engine start");
-    } else if (seconds = 0) {
-      console.log("Solid rocket booster ignition and liftoff!");
-    } else {
-      console.log(seconds);
-    }
-    seconds = "T-" + seconds--;
+while (seconds >= 1) {
+  if (seconds === 50) {
+    console.log("Obiter transfers from ground to internal power");
+  } else if (seconds === 31) {
+    console.log("Ground lanuch sequencer is go for auto sequence start");
+  } else if (seconds === 16) {
+    console.log("Activate launch pad sound suppression system");
+  } else if (seconds === 10) {
+    console.log("Activate main engine hydrogen burnoff system");
+  } else if (seconds === 6) {
+    console.log("Main engine start");
+  } else if (seconds = 0) {
+    console.log("Solid rocket booster ignition and liftoff!");
+  } else {
+    console.log(seconds);
   }
+  seconds = "T-" + seconds--;
+}
 
 var seconds = 60;
 
@@ -118,7 +118,7 @@ while (seconds >= 0) {
   } else {
     console.log("T-" + seconds + ' seconds');
   }
-seconds--;
+  seconds--;
 }
 
 /* const amounts = [61,00, 52.25, 112.99, 5.00];
@@ -133,7 +133,7 @@ console.log('Order total is: ', total);
 /* Newer for..of Loop*/
 
 let total = 0;
-for (let amount of amounts ) {
+for (let amount of amounts) {
   total += amount;
 }
 
@@ -159,7 +159,7 @@ console.log(laugh());
 
 /* Laugh It Off Quiz 2 */
 
-let laugh = function (num){
+let laugh = function (num) {
   let laughString = '';
 
   for (i = 0; 1 < num; i++) {
@@ -167,7 +167,7 @@ let laugh = function (num){
   }
 
   laughString += '!';
-  return laughString; 
+  return laughString;
 }
 
 console.log(laugh(3));
@@ -182,7 +182,7 @@ item1, ....., itemX are the items to be added at index position arg1
 
 splice() method returns the item(s) that were removed. */
 
-Arrays have a set of special methods to help you iterate over and perform operations on collections of data. You can view the MDN Documentation list of Array methods here, but a couple big ones to know are the forEach() and map() methods.
+Arrays have a set of special methods to help you iterate over and perform operations on collections of data.You can view the MDN Documentation list of Array methods here, but a couple big ones to know are the forEach() and map() methods.
 
 The forEach() method gives you an alternative way to iterate over an array, and manipulate each element in the array with an inline function expression.
 
